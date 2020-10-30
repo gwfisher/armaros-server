@@ -1,0 +1,8 @@
+{
+    "enchantments": [
+        {
+            "name": "Basic Ping",
+            "file": "./ping.json"
+        }
+    ]
+}
