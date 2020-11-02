@@ -1,8 +1,9 @@
-import Task from './scheduler'
+import {Task} from './scheduler/index.mjs';
 
-Task.name = "Test"
+var task = new Task("test","now","test","test");
 
+var result = task.runTask();
 
-
+console.log(result);
 
 
